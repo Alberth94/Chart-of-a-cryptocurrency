@@ -2,11 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ChoseCoin from './Components/ChoseCoin';
 import LineChart from './Components/LineChart';
 import './App.css'
-
 import Button from 'react-bootstrap/Button';
-
-
-
 
 function App() {
   const [error, setError] = useState(null);
