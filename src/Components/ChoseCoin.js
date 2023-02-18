@@ -2,8 +2,8 @@ import React from 'react';
 import './ChoseCoin.css'
 
 function ChoseCoin(props) {
+  
   const handleCurrencyChange = (event) => {
-    
     props.onCurrencyChange(event.target.value);
   }
 
