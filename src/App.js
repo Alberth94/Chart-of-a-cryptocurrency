@@ -4,7 +4,6 @@ import LineChart from './Components/LineChart';
 import './App.css'
 import { Button } from 'react-bootstrap';
 
-
 function App() {
   const [error, setError] = useState(null);
   const [data, setData] = useState([]);
